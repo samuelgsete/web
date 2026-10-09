@@ -87,8 +87,26 @@ div.student > div.avatar {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+
+.avatar-blue {
     color: var(--blue);
     background-color: var(--blue-bg);
+}
+
+.avatar-red {
+    color: var(--red);
+    background-color: var(--red-bg);
+}
+
+.avatar-green {
+    color: var(--green);
+    background-color: var(--green-bg);
+}
+
+.avatar-yellow {
+    color: var(--yellow);
+    background-color: var(--yellow-bg);
 }
 
 footer {

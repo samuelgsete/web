@@ -73,13 +73,19 @@ const alunos = [
         }
     ];
 
+    const cores = [
+        'avatar-blue', 'avatar-red', 'avatar-green', 'avatar-yellow',
+        'avatar-blue', 'avatar-red', 'avatar-green', 'avatar-yellow',
+        'avatar-blue', 'avatar-red', 'avatar-green', 'avatar-yellow'
+    ];
+
     const html = alunos
     .filter(aluno => aluno.ativo)
-    .map(aluno => {
+    .map((aluno, index) => {
         return `
             <li>
                 <div class="student">
-                    <div class="avatar">${aluno.avatar}</div>
+                    <div class="avatar ${ cores[index] }">${aluno.avatar}</div>
                     <a href="${aluno.url}" target="_blank">${aluno.nome}</a>
                 </div>
                 <i class="chevron-right" data-lucide="chevron-right" width="20" height="20"></i>
