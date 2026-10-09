@@ -1,0 +1,30 @@
+:root {
+  /* Fundos */
+  --bg:            #111114; /* fundo da página */
+  --surface:       #18181D; /* cards */
+  --surface-2:     #1A1A1F; /* botão secundário, selo da turma */
+  --surface-code:  #17171C; /* janela de código */
+
+  /* Bordas */
+  --border:        #2C2C34; /* bordas em geral */
+  --border-soft:   #222228; /* linhas do topo e do rodapé */
+  --border-hover:  #45454F; /* card com o mouse em cima */
+
+  /* Textos */
+  --text:          #F4F4F6; /* principal */
+  --text-2:        #D6D6DD; /* secundário */
+  --text-muted:    #A9A9B4; /* descrições e legendas */
+  --text-faint:    #7A7A86; /* setinhas dos cards */
+
+  /* Destaque */
+  --primary:       #6D3AE8; /* botão Material de Apoio */
+
+  /* Cores do logo: texto/ícone + fundo translúcido do ícone */
+  --blue:          #7CB6FF;  --blue-bg:   rgba(61, 139, 253, .14);
+  --red:           #FF8A8A;  --red-bg:    rgba(239, 68, 68, .13);
+  --yellow:        #FCD34D;  --yellow-bg: rgba(251, 191, 36, .12);
+  --green:         #4ADE80;  --green-bg:  rgba(34, 197, 94, .13);
+
+  --blue-title:    #4C9BFF; /* "Web" no título */
+  --green-dot:     #22C55E; /* bolinha do selo da turma */
+}

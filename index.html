@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Nunito+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Desenvolvimento Web I - Início</title>
+    </head>
+    <body>
+        <section id="content">
+            <header>
+                <img src="assets/img/logo.png" alt="Projeto Despertar Digital">
+                <a href="ementa.html" class="btn btn-secondary">
+                    <i data-lucide="file-text" width="17" height="17"></i>
+                    <div>Ementa <span>do curso</span></div>
+                </a>
+            </header>
+            <main>
+                <section id="bloco1">
+                    <section>
+                        <div class="badge-turma">
+                            <div class="dot"></div> Turma [DDW-2602]
+                        </div>
+                        <h1>Desenvolvimento <span>Web</span> I</h1>
+                        <p>Olá! Seja bem-vindo(a) :) Tudo o que você precisa para o curso está nesta página.</p>
+                        <a href="https://www.dropbox.com/scl/fo/2f98ewyymuerwovtrvdxd/AFHA_B3HT9rf9KajWb8bP30?rlkey=st798ah9vt5vham7hru8gecjg&st=r9d5ssh8&dl=0" class="btn btn-primary" target="_blank">
+                            <i data-lucide="book" width="20" height="20"></i>
+                            Acessar Material de Apoio
+                            <i data-lucide="arrow-right" width="20" height="20"></i>
+                        </a>
+                        <div class="badges-group">
+                            <span class="badge badge-danger">HTML</span>
+                            <span class="badge badge-info">CSS</span>
+                            <span class="badge badge-warning">JavaScript</span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="editor">
+                            <img 
+                                src="assets/img/editor-codigo.png"
+                                alt="Janela de editor mostrando um código HTML simples"
+                                class="editor-imagem"
+                            >
+                        </div>
+                    </section>
+                </section>
+
+                <section id="bloco2">
+                    <section>
+                        <p>Formulários</p>
+                        <div class="card-group">
+                            <div class="card" onclick="goTo('boas-vindas.html')">
+                                <div class="body">
+                                    <div class="icon icon-info">
+                                        <i data-lucide="user" width="16" height="16"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Boas-vindas</h2>
+                                        <p>Responda no início da curso</p>
+                                    </div>
+                                </div>
+                                <i class="chevron-right" data-lucide="chevron-right" width="16" height="16"></i>
+                            </div>
+                            <div class="card">
+                                <div class="body">
+                                    <div class="icon icon-danger">
+                                        <i data-lucide="square-check" width="16" height="16"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Encerramento</h2>
+                                        <p>Responda no fim da curso</p>
+                                    </div>
+                                </div>
+                                <i class="chevron-right" data-lucide="chevron-right" width="16" height="16"></i>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <p>Sobre a turma</p>
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="body">
+                                    <div class="icon icon-warning">
+                                        <i data-lucide="code-xml" width="16" height="16"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Projetos publicados</h2>
+                                        <p>Página criada pela turma</p>
+                                    </div>
+                                </div>
+                                <i class="chevron-right" data-lucide="chevron-right" width="16" height="16"></i>
+                            </div>
+                            <div class="card">
+                                <div class="body">
+                                    <div class="icon icon-success">
+                                        <i data-lucide="image" width="16" height="16"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Galeria de fotos</h2>
+                                        <p>Registros das aulas</p>
+                                    </div>
+                                </div>
+                                <i class="chevron-right" data-lucide="chevron-right" width="16" height="16"></i>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </main>
+            <footer>
+                <img src="assets/img/logo.png" alt="Projeto Despertar Digital">
+                <a href="#" target="_blank">
+                    <i data-lucide="graduation-cap" width="17" height="17"></i>
+                    Prof. Samuel Souza | 2026
+                </a>
+            </footer>
+        </section>
+
+        <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

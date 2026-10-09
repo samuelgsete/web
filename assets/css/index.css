@@ -1,0 +1,159 @@
+@import url('base.css');
+
+#content > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--border);
+    padding: 0.4% 8%;
+}
+
+header > img {
+    height: 72px;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#content > main {
+    padding: 4% 8%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#content > main > section#bloco1 {
+    display: flex;
+    flex-wrap: wrap;            /* a imagem desce quando faltar espaço */
+    align-items: center;
+    gap: 2rem;
+}
+
+div.badge-turma {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    gap: 8px;
+    color: var(--text);
+    font-size: 14px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid var(--border);
+}
+
+section#bloco1 > section {
+    container-type: inline-size; 
+}
+
+section#bloco1 > section > h1 {
+    color: var(--text);
+    margin: 12px 0;
+    font-weight: 700;
+    font-size: clamp(2.125rem, 12cqi, 4rem);
+    max-width: 500px;
+}
+
+section#bloco1 > section > h1 > span {
+    color: var(--blue-title);
+}
+
+section#bloco1 > section > p {
+    font-size: 17px;
+    color: var(--text-faint);
+    max-width: 400px;
+    line-height: 25px;
+}
+
+a.btn-primary {
+    margin: 16px 0;
+}
+
+#bloco1 > section {
+  flex: 1 1 22rem;            /* cada coluna com no mínimo ~352px */
+  min-width: 0;
+}
+
+.editor {
+    display: flex;
+    justify-content: center;
+}
+
+.editor-imagem {
+    width: 100%;
+    max-width: 42rem;
+    height: auto;
+}
+
+section#bloco2 {
+    padding: 5% 0;
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+section#bloco2 > section {
+    flex: 1 1 15em;
+}
+
+section#bloco2 > section > div.card-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+}
+
+section#bloco2 > section > p {
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid var(--border);
+    padding: 0.4% 8%;
+}
+
+footer > img {
+    height: 64px;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+footer > a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--text-2);
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+footer > a:hover {
+    color: var(--blue);
+}
+
+@media (max-width: 48rem) {
+    #content > main {
+        padding: 4% 8%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .editor, #content > header > a span {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.6rem 0;
+    }
+}
