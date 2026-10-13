@@ -3,7 +3,7 @@ const alunos = [
             avatar: 'AP',
             nome: "ANA PAULA ARAÚJO JUNQUILHO",
             url: "https://docs.google.com/forms/d/e/1FAIpQLSesbuT5L8l4Bum8yilpP9qSyh4YBMJ4GaPvH0eqJdRY3sPSCg/viewform?usp=pp_url&entry.1988089040=96811&entry.608306432=DDW-2602&entry.1908647358=Ana%20Paula%20Ara%C3%BAjo%20Junquilho&entry.1827692846=556.064.903-15",
-            ativo: true
+            ativo: false
         },
         {
             avatar: 'DA',
@@ -33,7 +33,7 @@ const alunos = [
             avatar: 'KM',
             nome: "KALEB MAGALHÃES DE CASTRO ANTERO",
             url: "https://docs.google.com/forms/d/e/1FAIpQLSesbuT5L8l4Bum8yilpP9qSyh4YBMJ4GaPvH0eqJdRY3sPSCg/viewform?usp=pp_url&entry.1988089040=96809&entry.608306432=DDW-2602&entry.1908647358=Kaleb%20Magalh%C3%A3es%20de%20Castro%20Antero&entry.1827692846=069.904.553-30",
-            ativo: true
+            ativo: false
         },
         {
             avatar: 'LR',
