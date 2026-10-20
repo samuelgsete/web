@@ -80,6 +80,19 @@ div.dot {
     background-color: var(--green-dot);
 }
 
+div.badge-turma {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    gap: 8px;
+    color: var(--text);
+    font-size: 14px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid var(--border);
+}
+
 h1, h2, h3 { font-family: 'Quicksand', sans-serif; }
 
 div.badges-group {

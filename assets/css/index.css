@@ -23,22 +23,9 @@ header > img {
 
 #content > main > section#bloco1 {
     display: flex;
-    flex-wrap: wrap;            /* a imagem desce quando faltar espaço */
+    flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-}
-
-div.badge-turma {
-    display: flex;
-    align-items: center;
-    padding: 8px 16px;
-    border-radius: 20px;
-    gap: 8px;
-    color: var(--text);
-    font-size: 14px;
-    width: fit-content;
-    height: fit-content;
-    border: 2px solid var(--border);
 }
 
 section#bloco1 > section {

@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid var(--border);
+    padding: 0.4% 8%;
+}
+
+footer > img {
+    height: 64px;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+footer > a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--text-2);
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+footer > a:hover {
+    color: var(--blue);
+}
