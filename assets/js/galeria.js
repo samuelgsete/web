@@ -15,14 +15,34 @@ const render = (images, id_element) => {
 
 // Galeria de fotos em sala
 
-let images1 = [
-    { src: 'sala/foto1.jpg', alt: 'Foto 1' },
-    { src: 'sala/foto2.jpg', alt: 'Foto 2' },
-    { src: 'sala/foto3.jpg', alt: 'Foto 3' },
-    { src: 'sala/foto4.jpg', alt: 'Foto 4' },
-    { src: 'sala/foto5.jpg', alt: 'Foto 5' },
-    { src: 'sala/foto6.jpg', alt: 'Foto 6' },
-    { src: 'sala/foto7.jpg', alt: 'Foto 7' }
-];
+let srcText = "sala/foto?.jpg";
+let altText = "Foto ?";
+
+let images1 = Array.from({ length: 16 });
+
+images1 = images1.map((item, key) => {
+    let index = ++key;
+    return {
+        src: srcText.replace('?', index),
+        alt: altText.replace('?', index)
+    }
+})
 
 render(images1, 'galeria-sala');
+
+// Galeria de fotos do projeto final
+
+srcText = "projeto/foto?.jpg";
+altText = "Foto ?";
+
+let images2 = Array.from({ length: 7 });
+
+images2 = images2.map((item, key) => {
+    let index = ++key;
+    return {
+        src: srcText.replace('?', index),
+        alt: altText.replace('?', index)
+    }
+})
+
+render(images2, 'galeria-projeto');

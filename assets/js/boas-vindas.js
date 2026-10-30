@@ -9,7 +9,7 @@ const alunos = [
             avatar: 'DA',
             nome: "DAVID ARTHUR BARROS AQUINO",
             url: "https://docs.google.com/forms/d/e/1FAIpQLSesbuT5L8l4Bum8yilpP9qSyh4YBMJ4GaPvH0eqJdRY3sPSCg/viewform?usp=pp_url&entry.1988089040=96804&entry.608306432=DDW-2602&entry.1908647358=DAVID%20ARTHUR%20BARROS%20AQUINO&entry.1827692846=633.259.323-71",
-            ativo: true
+            ativo: false
         },
         {
             avatar: 'GM',
@@ -27,7 +27,7 @@ const alunos = [
             avatar: 'JB',
             nome: "JOÃO BRUNO LOPES DA SILVA",
             url: "https://docs.google.com/forms/d/e/1FAIpQLSesbuT5L8l4Bum8yilpP9qSyh4YBMJ4GaPvH0eqJdRY3sPSCg/viewform?usp=pp_url&entry.1988089040=96805&entry.608306432=DDW-2602&entry.1908647358=JO%C3%83O%20BRUNO%20LOPES%20DA%20SILVA&entry.1827692846=789.911.533-72",
-            ativo: true
+            ativo: false
         },
         {
             avatar: 'KM',
@@ -39,7 +39,7 @@ const alunos = [
             avatar: 'LR',
             nome: "LEANDRO RODRIGUES DE CARVALHO",
             url: "https://docs.google.com/forms/d/e/1FAIpQLSesbuT5L8l4Bum8yilpP9qSyh4YBMJ4GaPvH0eqJdRY3sPSCg/viewform?usp=pp_url&entry.1988089040=96810&entry.608306432=DDW-2602&entry.1908647358=LEANDRO%20RODRIGUES%20DE%20CARVALHO&entry.1827692846=003.570.103-02",
-            ativo: true
+            ativo: false
         },
         {
             avatar: 'MA',
@@ -57,7 +57,7 @@ const alunos = [
             avatar: 'RM',
             nome: "ROBERTO MUNIZ DA SILVA",
             url: "https://docs.google.com/forms/d/e/1FAIpQLSesbuT5L8l4Bum8yilpP9qSyh4YBMJ4GaPvH0eqJdRY3sPSCg/viewform?usp=pp_url&entry.1988089040=96801&entry.608306432=DDW-2602&entry.1908647358=ROBERTO%20MUNIZ&entry.1827692846=384.933.573-91",
-            ativo: true
+            ativo: false
         },
         {
             avatar: 'TM',

@@ -1,0 +1,107 @@
+@import url('base.css');
+
+#content > main {
+    padding: 4% 8%;
+    width: 75%;
+    margin: 0 auto;
+    color: var(--text-2);
+}
+
+h1 {
+    margin: 16px 0;
+    color: var(--blue-title);
+    font-size: clamp(2rem, 1.2rem + 2.5vw, 2.25rem);
+}
+
+p.curso {
+    margin: 15px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 16px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 2px solid var(--border);
+    transition: 0.4s;
+}
+
+ul > li:hover {
+    background-color: var(--surface);
+}
+
+ul > li:last-child {
+    border-bottom: none;
+}
+
+div.student > a {
+    display: inline-block;
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+div.student {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+p.texto {
+    font-size: 18px;
+    color: var(--text-3);
+    margin-bottom: 20px;
+}
+
+div.student > div.avatar {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    font-size: 21px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.avatar-blue {
+    color: var(--blue);
+    background-color: var(--blue-bg);
+}
+
+.avatar-red {
+    color: var(--red);
+    background-color: var(--red-bg);
+}
+
+.avatar-green {
+    color: var(--green);
+    background-color: var(--green-bg);
+}
+
+.avatar-yellow {
+    color: var(--yellow);
+    background-color: var(--yellow-bg);
+}
+
+@media (max-width: 48rem) {
+    #content > main {
+        padding: 4% 8%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .editor, #content > header > a span {
+        display: none;
+    }
+}

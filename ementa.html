@@ -12,8 +12,8 @@
     </head>
     <body>
         <section id="content">
-            <header>
-                <img src="assets/img/logo.png" alt="Projeto Despertar Digital">
+            <header class="sticky">
+                <img id="home" src="assets/img/logo.png" alt="Projeto Despertar Digital">
                 <a href="https://www.dropbox.com/scl/fo/2f98ewyymuerwovtrvdxd/AFHA_B3HT9rf9KajWb8bP30?rlkey=st798ah9vt5vham7hru8gecjg&st=r9d5ssh8&dl=0" class="btn btn-primary" target="_blank">
                     <i data-lucide="book" width="20" height="20"></i>
                     <div>Material <span>de apoio</span></div>
@@ -30,7 +30,7 @@
                     <div class="dot"></div> Turma [DDW-2602]
                 </div>
                 <h1>Ementa do curso</h1>
-                <p>[De 13/10/2026 à 10/11/2026] &middot; [40 horas] &middot; [Presencial]</p>
+                <p>[De 13/10/2026 à 05/11/2026] &middot; [40 horas] &middot; [Presencial]</p>
 
                 <h2>Objetivo</h2>
                 <p>
@@ -41,7 +41,7 @@
                 </p>
                 <h2>Ferramentas</h2>
                 <p>
-                    Virtual Studio Code, Google Chrome, Git e Github
+                    Visual Studio Code, Google Chrome, Git e Github
                 </p>
 
                 <h1>Conteúdo programático</h1>
@@ -77,8 +77,19 @@
                             </p>
                         </div>
                     </li>
-                    <li>
+                     <li>
                         <p>04</p>
+                        <div>
+                            <h2>Construindo uma Loja virtual</h2>
+                            <p>
+                                Desenvolvimento de uma loja virtual com quatro páginas interligadas, 
+                                aplicando navegação entre páginas, imagens, tags de texto e tabelas 
+                                na organização dos produtos e do carrinho de compras.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>05</p>
                         <div>
                             <h2>Formulários</h2>
                             <p>
@@ -88,92 +99,85 @@
                         </div>
                     </li>
                     <li>
-                        <p>05</p>
+                        <p>06</p>
                         <div>
                             <h2>Introdução ao CSS</h2>
                             <p>
-                                Conceito e finalidades do CSS. Formas de aplicação (inline, interno e externo), 
-                                sintaxe, seletores e paleta de cores.
+                                Origem e evolução do CSS. Conceito e finalidades do CSS. Formas de aplicação do CSS (inline, interno e externo), 
+                                sintaxe, primeiras regras CSS.
                             </p>
                         </div>
                     </li>
-                    <li>
-                        <p>06</p>
-                        <div>
-                            <h2>Box Model, altura, largura e cor de fundo</h2>
-                            <p>
-                                Modelo de caixa (conteúdo, padding, borda e margin),
-                                dimensionamento de elementos e aplicação de cor de fundo.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
+                     <li>
                         <p>07</p>
                         <div>
-                            <h2>Posicionando elementos com Flexbox</h2>
+                            <h2>Seletores e paleta de cores</h2>
                             <p>
-                                Contêiner e itens flexíveis, direção dos eixos, 
-                                alinhamento e distribuição dos itens e espaçamento entre eles.
+                                Seleção de elementos com CSS e os principais tipos de seletores: universal, 
+                                de tag, de ID, de classe, de filho direto e de descendente. 
+                                Definição de cores por nome, RGB e hexadecimal, com o seletor de cores do Visual Studio Code.
                             </p>
                         </div>
                     </li>
                     <li>
                         <p>08</p>
                         <div>
-                            <h2>Estilizando textos e formulários</h2>
+                            <h2>Box Model, altura, largura e cor de fundo</h2>
                             <p>
-                                Tamanho, peso, cor, alinhamento e espaçamento de textos, 
-                                uso de fontes do Google Fonts e construção de um formulário 
-                                de login completo, com estados de hover e foco.
+                                Modelo de caixa (conteúdo, padding, borda e margin), outline,
+                                dimensionamento de elementos e aplicação de cor de fundo.
                             </p>
                         </div>
                     </li>
                     <li>
                         <p>09</p>
                         <div>
-                            <h2>Iniciando com JavaScript</h2>
+                            <h2>Posicionando elementos com Flexbox</h2>
                             <p>
-                                Conceito da linguagem e execução no navegador. 
-                                Incorporação a páginas HTML, declaração de variáveis, 
-                                tipos de dados e operadores aritméticos, de comparação e lógicos.
+                                Display block e inline, contêiner e itens flexíveis, direção dos eixos, 
+                                alinhamento, responsividade e distribuição dos itens e espaçamento entre eles.
                             </p>
                         </div>
                     </li>
                     <li>
                         <p>10</p>
                         <div>
-                            <h2>Funções e Eventos</h2>
+                            <h2>Estilizando telas de login e cadastro</h2>
                             <p>
-                                Declaração e invocação de funções, arrow functions e callbacks. 
-                                Eventos do navegador (click, mouseover, focus, blur e submit) e captura de dados de formulários.
+                                Formatação de textos: tamanho, peso, cor, alinhamento e espaçamento. Organização do CSS
+                                em arquivos com @import e uso de variáveis CSS. Ícones e fontes do Google. Transições suaves. Construção de 
+                                dois formulários completos, com os estados hover, focus e disabled.
                             </p>
                         </div>
                     </li>
                     <li>
                         <p>11</p>
                         <div>
-                            <h2>Document Object Model (DOM)</h2>
+                            <h2>Noções de JavaScript</h2>
                             <p>
-                                A tag form e seus atributos, campos de entrada de dados (texto, senha e seleção),
-                                botões e envio de formulários.
+                                O que é a linguagem e como ela é executada no navegador. 
+                                Inclusão de scripts em páginas HTML. Variáveis, tipos de dados e operadores aritméticos e de comparação. 
+                                Estruturas condicionais com if/else e switch/case. Funções. Seleção de elementos HTML pelo DOM.
                             </p>
                         </div>
                     </li>
                     <li>
                         <p>12</p>
                         <div>
-                            <h2>Integração de HTML, CSS e JavaScript</h2>
+                            <h2>Implementação do projeto final - Parte I</h2>
                             <p>
-                                Revisão dos módulos, aplicação conjunta de estrutura, estilo e interatividade e planejamento do projeto final.
+                                Planejamento e início do projeto final da turma: definição das páginas e funcionalidades, 
+                                criação da estrutura HTML e dos primeiros estilos.
                             </p>
                         </div>
                     </li>
                     <li>
                         <p>13</p>
                         <div>
-                            <h2>Desenvolvimento do projeto final</h2>
+                            <h2>Implementação do projeto final - Parte II</h2>
                             <p>
-                                Construção do projeto com acompanhamento do professor, incluindo ajustes, correções e boas práticas.
+                                Conclusão do projeto final: implementação das funcionalidades com JavaScript, 
+                                ajustes de layout, testes e apresentação dos resultados.
                             </p>
                         </div>
                     </li>
@@ -194,10 +198,10 @@
                 </a>
             </main>
             <footer>
-                <img src="assets/img/logo.png" alt="Projeto Despertar Digital">
+                <img src="assets/img/idear.png" alt="Instituto Idear">
                 <a href="https://wa.me/5585989711010" target="_blank">
                     <i data-lucide="graduation-cap" width="17" height="17"></i>
-                    Prof. Samuel Souza &middot; 2026
+                    Prof. Samuel Souza | 2026
                 </a>
             </footer>
         </section>
