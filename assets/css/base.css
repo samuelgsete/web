@@ -1,6 +1,7 @@
 @import url('colors.css');
 @import url('footer.css');
 @import url('header.css');
+@import url('card.css');
 
 * {
     margin: 0;
@@ -34,6 +35,7 @@ a.btn {
     text-decoration: none;
     padding: 12px 18px;
     display: flex;
+    justify-content: center;
     align-items: center;
     width: fit-content;
     height: fit-content;
@@ -202,4 +204,8 @@ div.card > div.body > div.icon {
     position: sticky;
     top: 0;
     z-index: 10;
+}
+
+.block {
+    width: 100% !important;
 }

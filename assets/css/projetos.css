@@ -1,0 +1,61 @@
+@import url('base.css');
+
+#content > main {
+    padding: 4% 8%;
+    width: 75%;
+    margin: 0 auto;
+    color: var(--text-2);
+}
+
+h1.title {
+    margin: 14px 0;
+    color: var(--blue-title);
+    font-size: clamp(2rem, 1.2rem + 2.5vw, 2.25rem);
+}
+
+h2 {
+    font-size: 22px;
+    margin: 12px 0;
+    color: var(--text-2);
+}
+
+p.curso {
+    margin: 15px 0;
+}
+
+p {
+    margin: 12px 0;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--text-muted);
+}
+
+p > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--blue-title);
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+div.cards-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 48rem) {
+    #content > main {
+        padding: 4% 8%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .editor, #content > header > a span {
+        display: none;
+    }
+}

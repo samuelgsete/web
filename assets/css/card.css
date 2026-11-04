@@ -1,0 +1,47 @@
+div.card-project {
+    min-width: 280px;
+    border-radius: 12px;
+    border: 2px solid var(--border);
+    background-color: var(--surface-2);
+    overflow: hidden;
+    cursor: pointer;
+    flex: 1 1;
+    transition: all 0.4s;
+}
+
+div.card-project:hover {
+    border: 2px solid var(--border-hover);
+}
+
+div.card-project:hover > div.card-img > img {
+    transform: scale(1.04);
+} 
+
+div.card-project > div.card-img {
+    width: 100%;
+    aspect-ratio: 380 / 220;
+}
+
+div.card-project > div.card-img > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s;
+}
+
+div.card-project > div.card-body {
+    padding: 30px;
+}
+
+div.card-body > h1 {
+    color: var(--blue);
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+div.card-body > p {
+    font-size: 15px;
+    color: var(--text);
+}
