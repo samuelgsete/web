@@ -30,7 +30,7 @@ section#bloco1 > section > h1 > span {
 }
 
 section#bloco1 > section > p {
-    font-size: 17px;
+    font-size: 18px;
     color: var(--text-faint);
     max-width: 400px;
     line-height: 25px;
