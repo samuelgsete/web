@@ -4,7 +4,9 @@
     justify-content: space-between;
     border-bottom: 2px solid var(--border);
     padding: 0.4% 8%;
-    background-color: var(--bg);
+    backdrop-filter: blur(12px);
+    background-color: rgba(17, 17, 20, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 header > img {
