@@ -35,7 +35,7 @@ render(images1, 'galeria-sala');
 srcText = "projeto/foto?.jpg";
 altText = "Foto ?";
 
-let images2 = Array.from({ length: 7 });
+let images2 = Array.from({ length: 8 });
 
 images2 = images2.map((item, key) => {
     let index = ++key;
@@ -46,3 +46,20 @@ images2 = images2.map((item, key) => {
 })
 
 render(images2, 'galeria-projeto');
+
+// Galeria de fotos da certificação
+
+srcText = "certificacao/foto?.jpg";
+altText = "Foto ?";
+
+let images3 = Array.from({ length: 8 });
+
+images3 = images3.map((item, key) => {
+    let index = ++key;
+    return {
+        src: srcText.replace('?', index),
+        alt: altText.replace('?', index)
+    }
+})
+
+render(images3, 'galeria-certificacao');
